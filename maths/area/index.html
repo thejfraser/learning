@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<title>Area &amp; Perimeter</title>
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+		<link rel="stylesheet" href="maths.area.css" />
+
+	</head>
+	<body class="grey lighten-3">
+		<nav>
+			<div class="nav-wrapper blue darken-2">
+				<a href="index.html" class="brand-logo center">Area &amp; Perimeter</a>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m8 offset-m2">
+					<ul class="collapsible">
+						<li>
+							<div class="collapsible-header"><i class="material-icons">settings</i>Settings</div>
+							<div class="collapsible-body white">
+								<p class="range-field">
+									<input type="range" id="level" value="1" min="1" max="3" />
+									<label for="level">Level</label>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header"><i class="material-icons">insert_chart</i>Stats</div>
+							<div class="collapsible-body white">
+								<p class="flow-text"><span id="correct-answers" class="stat-val green white-text">0</span> Correct Answers <br />
+									<span id="incorrect-answers" class="stat-val red white-text">0</span> Incorrect Answers</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<h1 id="question" class="center grey-text text-darken-3">
+						Find the <span id="question-area" class="green">area</span><span id="question-perimeter" class="orange">perimeter</span> of the following shape
+					</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m6 offset-m3">
+					<div class="white answer-box">
+						<form action="#answer" id="answerform">
+							<label for="answer">ANSWER:</label>
+							<input type="number" id="answer">
+							<div class="center">
+								<input type="submit" class="waves-effect waves-light btn" href="#check" id="checkanswer" value="Check Answer" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m8 offset-m2 center">
+					<table cellpadding="5" cellspacing="0" id="question-grid" class="white">
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					<p class="red-text"><em>* Not at all to scale!</em>
+				</div>
+			</div>
+        </div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+        <script type="text/javascript" src="maths.area.js"></script>
+	</body>
+</html>
+
+

@@ -1,0 +1,166 @@
+.answer-box {
+	padding:2em;
+}
+.stat-val {
+	display:inline;
+	display:inline-block;
+	zoom:1;
+	padding:0 5px;
+}
+#question-grid {
+	width:auto;
+	margin:0 auto;
+}
+#question-grid.q-perimeter {
+	border:2px #ff9800 solid;
+	-webkit-box-shadow: 0 0 15px #ff9800;
+	-moz-box-shadow: 0 0 15px #ff9800;
+	box-shadow: 0 0 15px #ff9800;
+}
+
+#question-grid.q-area {
+	border:2px #4CAF50 solid;
+	-webkit-box-shadow: 0 0 15px #4CAF50;
+	-moz-box-shadow: 0 0 15px #4CAF50;
+	box-shadow: 0 0 15px #4CAF50;
+}
+#question-grid td{
+	border:1px #f9f9f9 solid;
+	width:3em;
+	height:3em;
+	line-height:3em;
+	padding:0;
+	text-align:center;
+}
+
+#question-grid.level1 tr:nth-child(2) td:nth-child(2),
+#question-grid.level1 tr:nth-child(3) td:nth-child(2),
+#question-grid.level1 tr:nth-child(4) td:nth-child(2),
+#question-grid.level1 tr:nth-child(5) td:nth-child(2),
+#question-grid.level1 tr:nth-child(6) td:nth-child(2),
+#question-grid.level1 tr:nth-child(7) td:nth-child(2),
+#question-grid.level1 tr:nth-child(8) td:nth-child(2),
+#question-grid.level1 tr:nth-child(9) td:nth-child(2),
+#question-grid.level1 tr:nth-child(2) td:nth-child(10),
+#question-grid.level1 tr:nth-child(3) td:nth-child(10),
+#question-grid.level1 tr:nth-child(4) td:nth-child(10),
+#question-grid.level1 tr:nth-child(5) td:nth-child(10),
+#question-grid.level1 tr:nth-child(6) td:nth-child(10),
+#question-grid.level1 tr:nth-child(7) td:nth-child(10),
+#question-grid.level1 tr:nth-child(8) td:nth-child(10),
+#question-grid.level1 tr:nth-child(9) td:nth-child(10){
+	border-left:3px blue solid;
+}
+#question-grid.level1 tr:nth-child(2) td:nth-child(2),
+#question-grid.level1 tr:nth-child(2) td:nth-child(3),
+#question-grid.level1 tr:nth-child(2) td:nth-child(4),
+#question-grid.level1 tr:nth-child(2) td:nth-child(5),
+#question-grid.level1 tr:nth-child(2) td:nth-child(6),
+#question-grid.level1 tr:nth-child(2) td:nth-child(7),
+#question-grid.level1 tr:nth-child(2) td:nth-child(8),
+#question-grid.level1 tr:nth-child(2) td:nth-child(9),
+#question-grid.level1 tr:nth-child(10) td:nth-child(2),
+#question-grid.level1 tr:nth-child(10) td:nth-child(3),
+#question-grid.level1 tr:nth-child(10) td:nth-child(4),
+#question-grid.level1 tr:nth-child(10) td:nth-child(5),
+#question-grid.level1 tr:nth-child(10) td:nth-child(6),
+#question-grid.level1 tr:nth-child(10) td:nth-child(7),
+#question-grid.level1 tr:nth-child(10) td:nth-child(8),
+#question-grid.level1 tr:nth-child(10) td:nth-child(9){
+	border-top:3px blue solid;
+}
+
+
+
+#question-grid.level2 tr:nth-child(5) td:nth-child(2),
+#question-grid.level2 tr:nth-child(6) td:nth-child(2),
+#question-grid.level2 tr:nth-child(7) td:nth-child(2),
+#question-grid.level2 tr:nth-child(8) td:nth-child(2),
+#question-grid.level2 tr:nth-child(9) td:nth-child(2),
+#question-grid.level2 tr:nth-child(2) td:nth-child(5),
+#question-grid.level2 tr:nth-child(3) td:nth-child(5),
+#question-grid.level2 tr:nth-child(4) td:nth-child(5),
+#question-grid.level2 tr:nth-child(2) td:nth-child(10),
+#question-grid.level2 tr:nth-child(3) td:nth-child(10),
+#question-grid.level2 tr:nth-child(4) td:nth-child(10),
+#question-grid.level2 tr:nth-child(5) td:nth-child(10),
+#question-grid.level2 tr:nth-child(6) td:nth-child(10),
+#question-grid.level2 tr:nth-child(7) td:nth-child(10),
+#question-grid.level2 tr:nth-child(8) td:nth-child(10),
+#question-grid.level2 tr:nth-child(9) td:nth-child(10){
+	border-left:3px blue solid;
+}
+#question-grid.level2 tr:nth-child(5) td:nth-child(2),
+#question-grid.level2 tr:nth-child(5) td:nth-child(3),
+#question-grid.level2 tr:nth-child(5) td:nth-child(4),
+#question-grid.level2 tr:nth-child(2) td:nth-child(5),
+#question-grid.level2 tr:nth-child(2) td:nth-child(6),
+#question-grid.level2 tr:nth-child(2) td:nth-child(7),
+#question-grid.level2 tr:nth-child(2) td:nth-child(8),
+#question-grid.level2 tr:nth-child(2) td:nth-child(9),
+#question-grid.level2 tr:nth-child(10) td:nth-child(2),
+#question-grid.level2 tr:nth-child(10) td:nth-child(3),
+#question-grid.level2 tr:nth-child(10) td:nth-child(4),
+#question-grid.level2 tr:nth-child(10) td:nth-child(5),
+#question-grid.level2 tr:nth-child(10) td:nth-child(6),
+#question-grid.level2 tr:nth-child(10) td:nth-child(7),
+#question-grid.level2 tr:nth-child(10) td:nth-child(8),
+#question-grid.level2 tr:nth-child(10) td:nth-child(9){
+	border-top: 3px blue solid;
+}
+
+#question-grid.level3 tr:nth-child(5) td:nth-child(2),
+#question-grid.level3 tr:nth-child(6) td:nth-child(2),
+#question-grid.level3 tr:nth-child(7) td:nth-child(2),
+#question-grid.level3 tr:nth-child(8) td:nth-child(2),
+#question-grid.level3 tr:nth-child(9) td:nth-child(2),
+#question-grid.level3 tr:nth-child(2) td:nth-child(5),
+#question-grid.level3 tr:nth-child(3) td:nth-child(5),
+#question-grid.level3 tr:nth-child(4) td:nth-child(5),
+#question-grid.level3 tr:nth-child(2) td:nth-child(10),
+#question-grid.level3 tr:nth-child(3) td:nth-child(10),
+#question-grid.level3 tr:nth-child(4) td:nth-child(10),
+#question-grid.level3 tr:nth-child(5) td:nth-child(10),
+#question-grid.level3 tr:nth-child(6) td:nth-child(10),
+#question-grid.level3 tr:nth-child(7) td:nth-child(7),
+#question-grid.level3 tr:nth-child(8) td:nth-child(7),
+#question-grid.level3 tr:nth-child(9) td:nth-child(7){
+	border-left:3px blue solid;
+}
+#question-grid.level3 tr:nth-child(5) td:nth-child(2),
+#question-grid.level3 tr:nth-child(5) td:nth-child(3),
+#question-grid.level3 tr:nth-child(5) td:nth-child(4),
+#question-grid.level3 tr:nth-child(2) td:nth-child(5),
+#question-grid.level3 tr:nth-child(2) td:nth-child(6),
+#question-grid.level3 tr:nth-child(2) td:nth-child(7),
+#question-grid.level3 tr:nth-child(2) td:nth-child(8),
+#question-grid.level3 tr:nth-child(2) td:nth-child(9),
+#question-grid.level3 tr:nth-child(10) td:nth-child(2),
+#question-grid.level3 tr:nth-child(10) td:nth-child(3),
+#question-grid.level3 tr:nth-child(10) td:nth-child(4),
+#question-grid.level3 tr:nth-child(10) td:nth-child(5),
+#question-grid.level3 tr:nth-child(10) td:nth-child(6),
+#question-grid.level3 tr:nth-child(7) td:nth-child(7),
+#question-grid.level3 tr:nth-child(7) td:nth-child(8),
+#question-grid.level3 tr:nth-child(7) td:nth-child(9){
+	border-top: 3px blue solid;
+}
+
+#question-grid.level3 tr:nth-child(9) td:nth-child(8),
+#question-grid.level3 tr:nth-child(9) td:nth-child(9),
+#question-grid.level3 tr:nth-child(9) td:nth-child(7),
+#question-grid.level3 tr:nth-child(1) td:nth-child(2),
+#question-grid.level3 tr:nth-child(1) td:nth-child(3),
+#question-grid.level3 tr:nth-child(1) td:nth-child(4){
+	border-bottom:2px dotted gray
+}
+
+#question-grid.level3 tr:nth-child(2) td:nth-child(1),
+#question-grid.level3 tr:nth-child(3) td:nth-child(1),
+#question-grid.level3 tr:nth-child(4) td:nth-child(1),
+#question-grid.level3 tr:nth-child(7) td:nth-child(9),
+#question-grid.level3 tr:nth-child(8) td:nth-child(9),
+#question-grid.level3 tr:nth-child(9) td:nth-child(9)
+{
+	border-right:2px dotted gray;
+}
